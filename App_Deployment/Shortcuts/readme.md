@@ -14,6 +14,7 @@ Parameters:
 * [-WorkingDirectory]	    Optional: WorkingDirectory for the shortcut
 
 # Personal Desktop:
+install as user
 * install:
 
 %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "CreateDesktopIcon.ps1" -ShortcutTargetPath "cmd" -ShortcutDisplayName "cmd"
@@ -22,3 +23,11 @@ Parameters:
 %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "RemoveDesktopIcon.ps1" -ShortcutDisplayName "cmd"
 
 # Public Desktop:
+Install as system
+* install:
+
+%windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "CreateDesktopIcon.ps1" -ShortcutTargetPath "cmd" -ShortcutDisplayName "cmd"
+
+* uninstall:
+
+%windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "RemoveDesktopIcon.ps1" -ShortcutDisplayName "cmd"
