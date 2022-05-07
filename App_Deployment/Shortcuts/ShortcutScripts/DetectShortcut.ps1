@@ -1,5 +1,5 @@
 # Replace with the name of your shortcut (without *.lnk)
-$shortcutName="cmd"
+$shortcutName="Norming"
 
 if ($(whoami -user) -match "S-1-5-18"){
     $runningAsSystem= $true
