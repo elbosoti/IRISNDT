@@ -5,10 +5,11 @@
 #powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File CreateShortcut.ps1
 #=============================================================================================================================
 #Manual Variables
-$ShortcutName = "Norming"
-$IconName = "norming.ico"
-$ShortcutTargetPath = "%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe"
-$ShortcutArguments = "--app=https://norming.irisndt.com/ess"
+$ShortcutName = "Company Portal"
+$ShortcutTargetPath = "shell:AppsFolder\Microsoft.CompanyPortal_8wekyb3d8bbwe!App"
+#Optional Variables
+$IconName = ""
+$ShortcutArguments = ""
 #=========================================================================================================
 
 

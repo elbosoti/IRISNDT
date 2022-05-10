@@ -1,5 +1,5 @@
 # Replace with the name of your shortcut (without *.lnk)
-$shortcutName="Norming"
+$shortcutName="Company Portal"
 
 if ($(whoami -user) -match "S-1-5-18"){
     $runningAsSystem= $true
