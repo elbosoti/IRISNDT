@@ -8,7 +8,7 @@
 $ShortcutName = "Company Portal"
 $ShortcutTargetPath = "shell:AppsFolder\Microsoft.CompanyPortal_8wekyb3d8bbwe!App"
 #Optional Variables
-$IconName = ""
+$IconName = "companyportal.ico"
 $ShortcutArguments = ""
 #=========================================================================================================
 
