@@ -6,7 +6,7 @@
 #=============================================================================================================================
 
 # Define Variables
-$AppID = "VideoLAN.VLC"
+$AppID = "Adobe.Acrobat.Reader.64-bit"
 
 try{
     $WingetResponse = winget list --id $AppID
