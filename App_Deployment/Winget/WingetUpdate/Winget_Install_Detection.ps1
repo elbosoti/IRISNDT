@@ -6,7 +6,7 @@
 #=============================================================================================================================
 
 # Define Variables
-$AppID = "Adobe.Acrobat.Reader.64-bit"
+$AppID = "TimKosse.FileZilla.Client"
 
 try{
     $WingetResponse = winget list --id $AppID
